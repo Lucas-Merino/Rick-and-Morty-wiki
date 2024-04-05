@@ -4,7 +4,7 @@ import styles from "./Cards.module.css"
 
 const Cards = ({  results, page }) => {
   let display;
-  
+  console.log()
   if(results){
     display = results.map(character => { 
       let { id, name, image, status, location } = character
